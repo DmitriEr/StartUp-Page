@@ -1,10 +1,77 @@
-$background-color: red
+@mixin fonts($ff, $f, $l, $c, $s, $w)
+    font-family: $ff, 'Arial', sans-serif
+    font-size: $f
+    line-height: $l
+    color: $c
+    letter-spacing: $s
+    font-weight: $w
 
 body
-    background-color: $background-color,s
-    height: 1000px
+    margin: 0px
 
-.class-hello
-    background-color: $background-color,
-    width: 100px,
-    height: 300px
+.container
+    width: 1140px
+    margin: auto
+
+.header-page
+    background-image: url(img/header-background.jpg)
+    background-size: cover
+    
+    .header-top
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-between
+        align-items: center
+        padding-top: 20px
+        
+        .header-top__logo
+            @include fonts('Montserrat', 24px, 36px, #ffffff, 0, bold)
+
+        .header-top__navigation
+            display: flex
+            flex-wrap: wrap
+
+            .header-top__item
+                @include fonts('Montserrat', 14px, 24px, #ffffff, 0.025em, regular)
+                list-style: none
+                padding-left: 30px
+
+            a
+                text-decoration: none
+                color: #ffffff
+
+                &:hover
+                    color: #5bbcdaa1  
+                    text-decoration: underline
+
+    .header-inner
+        padding-top: 200px
+        padding-bottom: 350px 
+
+        .header-inner__title
+            @include fonts("Montserrat", 40px, 50px, #ffffff, 0, bold)
+            text-transform: uppercase
+            text-align: center
+
+        .header-inner__subtitle
+            @include fonts("Montserrat", 18px, 24px, #ffffff, 0, reguler)
+            text-align: center
+            padding-bottom: 50px
+
+        .header-inner__button
+            @include fonts('Montserrat', 16px, 24px, #ffffff, 0, regular)
+            text-align: center
+            background-color: transparent
+            padding: 10px 25px
+            text-transform: uppercase
+            border-color: #ffffff
+            outline: none
+            position: relative
+            left: 50%
+            transform: translate(-50%, 0)
+            &:hover
+                opacity: 0.5
+                background-color: #ffffff
+                color: red
+                font-weight: bold
