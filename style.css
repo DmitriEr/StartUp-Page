@@ -121,4 +121,114 @@ body {
   color: red;
   font-weight: bold;
 }
+
+.services {
+  background-color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.services .services__title {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: regular;
+  text-align: center;
+  position: relative;
+}
+
+.services .services__title::after {
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #555555;
+  width: 45px;
+  left: 550px;
+  padding-bottom: 40px;
+}
+
+.services .services__subtitle {
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: regular;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.services .services-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.services .services-list .services-item {
+  width: 33%;
+  padding-top: 70px;
+}
+
+.services .services-list .services-item .code {
+  width: 78px;
+  height: 78px;
+  background-color: transparent;
+  border-radius: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 1px #dddddd;
+}
+
+.services .services-list .services-item:first-of-type .fonts {
+  width: 80px;
+  height: 80px;
+  background-color: #c0301c;
+  border-radius: 50%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.services .services-list .services-item .services-item__title {
+  font-family: "Monserrat", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: regular;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.services .services-list .services-item .services-item__description {
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: regular;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
