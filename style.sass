@@ -142,8 +142,63 @@ body
                 @include fonts('Roboto Slab', 14px, 24px, #555555, 0, regular)
                 text-align: center
 
+//about-us
 
-            
-            
+.team
+    background-color: #f8f8f8
+    padding-top: 80px
+    padding-bottom: 80px
 
+    .team__title
+        @include fonts('Montserrat', 20px, 24px, #555555, 0, regular)
+        text-align: center
+        position: relative
+        
+        &::after
+            content: ""
+            position: absolute
+            border-bottom: 2px solid #555555
+            width: 45px
+            left: 550px
+            padding-bottom: 40px
+
+    .team__subtitle
+        @include fonts('Roboto Slab', 16px, 24px, #555555, 0, regular)
+        text-align: center
+        margin-top: 25px
+
+    .team-list__description
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        list-style: none
+
+        .team-item__text
+            width: 49%
+
+            .text-inner
+                @include fonts("Roboto Slab", 14px, 24px, #555555, 0, regular)
+            
+    .team-list__photo-cards
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        list-style: none
+        padding-top: 70px
+
+        .team-item__photo-cards
+            width: 22%
+
+            .team-item__full-name
+                @include fonts("Montserrat", 14px, 24px, #555555, 0, regular)
+                text-align: center
+                text-transform: uppercase
+
+            .team-item__position
+                @include fonts("Roboto Slab", 13px, 24px, #555555, 0, regular)
+                text-align: center
+
+            .team-item__photo
+                &:hover
+                    opacity: 0.5
         
