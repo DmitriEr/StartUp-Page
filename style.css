@@ -335,4 +335,67 @@ body {
 .team .team-list__photo-cards .team-item__photo-cards .team-item__photo:hover {
   opacity: 0.5;
 }
+
+.works {
+  background-color: #ffffff;
+  padding: 80px 0px;
+}
+
+.works .works-title {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: regular;
+  text-align: center;
+  position: relative;
+}
+
+.works .works-title::after {
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #555555;
+  width: 45px;
+  left: 550px;
+  padding-bottom: 40px;
+}
+
+.works .works-search__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.works .works-search__list .works-search__text {
+  padding: 0px 20px;
+}
+
+.works .works-search__list .works-search__text:hover {
+  color: #c0301c;
+  cursor: pointer;
+}
+
+.works .works-photo__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.works .works-photo__list .works-photo__item {
+  width: 30%;
+  margin-top: 30px;
+}
 /*# sourceMappingURL=style.css.map */
