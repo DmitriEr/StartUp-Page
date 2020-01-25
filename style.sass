@@ -201,4 +201,47 @@ body
             .team-item__photo
                 &:hover
                     opacity: 0.5
-        
+
+// works
+
+.works
+    background-color: #ffffff
+    padding: 80px 0px
+
+    .works-title
+        @include fonts('Montserrat', 20px, 24px, #555555, 0, regular)
+        text-align: center
+        position: relative
+
+        &::after
+            content: ""
+            position: absolute
+            border-bottom: 2px solid #555555
+            width: 45px
+            left: 550px
+            padding-bottom: 40px
+
+    .works-search__list
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        list-style: none
+
+        .works-search__text
+            padding: 0px 20px
+
+            &:hover
+                color: #c0301c
+                cursor: pointer
+
+    .works-photo__list
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        list-style: none
+
+        .works-photo__item
+            width: 30%
+            margin-top: 30px
+
+                
