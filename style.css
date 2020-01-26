@@ -398,4 +398,58 @@ body {
   width: 30%;
   margin-top: 30px;
 }
+
+.wrapper {
+  background-image: url(img/background2.jpg);
+  background-size: cover;
+  padding: 100px 0px;
+  position: relative;
+  display: block;
+}
+
+.wrapper .wrapper-text {
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 44px;
+  color: #ffffff;
+  letter-spacing: 0;
+  font-weight: regular;
+  text-align: center;
+  position: relative;
+}
+
+.wrapper .wrapper-text span {
+  text-transform: uppercase;
+}
+
+.wrapper .wrapper-button {
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 44px;
+  color: #ffffff;
+  letter-spacing: 0;
+  font-weight: regular;
+  text-align: center;
+  background-color: transparent;
+  border: solid 1px #ffffff;
+  padding: 0px 25px;
+  left: 45%;
+  position: relative;
+}
+
+.wrapper .wrapper-button:hover {
+  background-color: #ffffff;
+  color: red;
+}
+
+.background-color {
+  position: absolute;
+  background: #c0301c;
+  color: #ffffff;
+  opacity: 0.5;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
 /*# sourceMappingURL=style.css.map */
