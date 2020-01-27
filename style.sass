@@ -283,3 +283,92 @@ body
     left: 0
     top: 0
     height: 100%
+
+// blog
+
+.blog
+    padding: 80px 0
+    background-color: #ffffff
+
+    .blog__title
+        @include fonts('Montserrat', 20px, 24px, #555555, 0, regular)
+        text-align: center
+        text-transform: uppercase
+        position: relative  
+        &::after
+            content: ""
+            position: absolute
+            border-bottom: 2px solid #555555
+            width: 45px
+            padding-bottom: 45px
+            left: 550px
+
+    .blog__subtitle
+        @include fonts('Roboto Slab', 16px, 24px, #555555, 0, regular)
+        text-align: center
+        padding-top: 20px
+
+    .blog-wrapper
+        display: flex
+        flex-wrap: wrap
+        flex-direction: row
+        justify-content: space-between
+        padding: 20px 0px
+
+        &:first-of-type
+            border-bottom: 1px solid #dddddd
+
+        .blog-inner:first-child
+            width: 460px
+
+        .blog-inner:nth-of-type(2)
+            width: 640px
+
+            .blog-inner__top
+                display: flex
+                flex-wrap: wrap
+                margin-top: 15px
+
+                .blog-container__top:first-child
+                    border: 2px solid #555555
+                    margin-right: 30px
+                    padding: 15px 20px 10px 20px
+                    text-align: center
+                    margin-bottom: 20px
+
+                    .blog-inner__date
+                        @include fonts('Montserrat', 20px, 20px, #777777, 0, bold)
+                        margin: 5px
+                        margin-top: 0px
+
+                    .blog-inner__month
+                        @include fonts('Montseerat', 15px , 10px, #777777, 0, bold)
+                        margin: 10px
+
+                .blog-container__top:nth-of-type(2)
+
+                    .blog-inner__title
+                        @include fonts('Montserrat', 16px, 24px, #c0301c, 0, bold)
+                        text-transform: uppercase
+                        margin: 5px 0px 0px 0px
+
+                    .blog-inner__subtitle
+                        @include fonts('Roboto Slab', 13px, 24px, #777777, 0, regular)
+                        margin: 0px
+                        
+                        span
+                            color: #c0301c
+            
+            .blog-inner__main
+                @include fonts('Roboto Slab', 14px, 24px, #555555, 0, regular)
+                text-align: left
+
+                .blog-inner__main-text
+                    margin-top: 0px
+
+                .blog-inner__main-more
+                    color: #c0301c
+                    text-transform: uppercase
+                    font-weight: bold
+                    
+
