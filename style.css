@@ -600,4 +600,40 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.reviews {
+  background-color: #f8f8f8;
+  padding: 100px 0px;
+}
+
+.reviews .reviews-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+.reviews .reviews-text {
+  text-align: center;
+  font-style: italic;
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: regular;
+  padding-top: 40px;
+}
+
+.reviews .reviews-author {
+  text-align: center;
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: regular;
+}
 /*# sourceMappingURL=style.css.map */
