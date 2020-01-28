@@ -370,5 +370,24 @@ body
                     color: #c0301c
                     text-transform: uppercase
                     font-weight: bold
-                    
+// reviews
+
+.reviews
+    background-color: #f8f8f8
+    padding: 100px 0px
+
+    .reviews-list
+        display: flex
+        justify-content: space-around
+        list-style: none
+
+    .reviews-text
+        text-align: center
+        font-style: italic
+        @include fonts('Roboto Slab', 18px, 30px, #555555, 0, regular)
+        padding-top: 40px
+
+    .reviews-author
+        text-align: center
+        @include fonts('Roboto Slab', 20px, 30px, #555555, 0, regular)               
 
