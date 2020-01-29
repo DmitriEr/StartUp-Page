@@ -391,3 +391,27 @@ body
         text-align: center
         @include fonts('Roboto Slab', 20px, 30px, #555555, 0, regular)               
 
+// contact
+
+.contact
+    background-color: #ffffff
+    padding: 80px 0px
+
+    .title
+        @include fonts('Montserrat', 20px, 24px, #555555, 0, regular)
+        text-align: center
+        position: relative
+        text-transform: uppercase
+
+        &::after
+            content: ""
+            position: absolute
+            left: 550px
+            top: 40px
+            border-bottom: 2px solid #555555
+            width: 40px
+
+    .contact-subtitle
+        @include fonts('Roboto Slab', 16px, 24px, #555555, 0, regular)
+        text-align: center
+        padding-top: 10px

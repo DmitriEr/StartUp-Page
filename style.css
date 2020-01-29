@@ -636,4 +636,41 @@ body {
   letter-spacing: 0;
   font-weight: regular;
 }
+
+.contact {
+  background-color: #ffffff;
+  padding: 80px 0px;
+}
+
+.contact .title {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: regular;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.contact .title::after {
+  content: "";
+  position: absolute;
+  left: 550px;
+  top: 40px;
+  border-bottom: 2px solid #555555;
+  width: 40px;
+}
+
+.contact .contact-subtitle {
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: regular;
+  text-align: center;
+  padding-top: 10px;
+}
 /*# sourceMappingURL=style.css.map */
