@@ -673,4 +673,50 @@ body {
   text-align: center;
   padding-top: 10px;
 }
+
+.contact .data-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact .data-wrapper .data {
+  padding-top: 30px;
+}
+
+.contact .data-wrapper .data:first-of-type {
+  width: 400px;
+}
+
+.contact .data-wrapper .data:nth-of-type {
+  max-width: 800px;
+}
+
+.contact .data-wrapper .data .data-list {
+  list-style: none;
+}
+
+.contact .data-wrapper .data .data-list .data-item__title {
+  display: inline;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: 700;
+}
+
+.contact .data-wrapper .data .data-list .data-item__text {
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: 700;
+  margin-top: 6px;
+}
 /*# sourceMappingURL=style.css.map */

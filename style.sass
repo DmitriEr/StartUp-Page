@@ -415,3 +415,28 @@ body
         @include fonts('Roboto Slab', 16px, 24px, #555555, 0, regular)
         text-align: center
         padding-top: 10px
+
+    .data-wrapper
+        display: flex
+        flex-wrap: wrap
+
+        .data
+            padding-top: 30px
+            
+            &:first-of-type
+                width: 400px
+            &:nth-of-type
+                max-width: 800px
+
+            .data-list
+                list-style: none
+
+                .data-item__title
+                    display: inline
+                    padding-left: 10px
+                    text-transform: uppercase
+                    @include fonts('Montserrat', 14px, 30px, #555555, 0, 700)
+
+                .data-item__text
+                    @include fonts('Roboto Slab', 12px, 20px, #555555, 0, 700)
+                    margin-top: 6px
