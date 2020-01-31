@@ -719,4 +719,76 @@ body {
   font-weight: 700;
   margin-top: 6px;
 }
+
+.contact .data-wrapper .data input[type="text"] {
+  width: 300px;
+  height: 10px;
+  margin-bottom: 20px;
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.contact .data-wrapper .data input[type="text"]:nth-of-type(1) {
+  margin-right: 30px;
+}
+
+.contact .data-wrapper .data input[type="text"]:hover {
+  border-color: #c0301c;
+}
+
+.contact .data-wrapper .data textarea {
+  width: 670px;
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #555555;
+  letter-spacing: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.contact .data-wrapper .data textarea:hover {
+  border-color: #c0301c;
+}
+
+.contact .data-wrapper .data input[type="submit"] {
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #6e6d6d;
+  letter-spacing: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #a59e9e;
+}
+
+.contact .data-wrapper .data input[type="submit"]:hover {
+  border-color: #c0301c;
+}
+
+.contact .data-wrapper .data .modal-inner__text {
+  display: inline;
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #6e6d6d;
+  letter-spacing: 0;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.contact .data-wrapper .data .modal-inner__text span {
+  color: #d87e71;
+}
 /*# sourceMappingURL=style.css.map */

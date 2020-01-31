@@ -440,3 +440,46 @@ body
                 .data-item__text
                     @include fonts('Roboto Slab', 12px, 20px, #555555, 0, 700)
                     margin-top: 6px
+
+            input[type="text"]
+                width: 300px
+                height: 10px
+                margin-bottom: 20px
+                @include fonts('Roboto Slab', 12px, 20px, #555555, 0, 500)
+                text-transform: uppercase
+                padding: 15px
+
+                &:nth-of-type(1) 
+                    margin-right: 30px
+
+                &:hover
+                    border-color: #c0301c
+            
+            textarea
+                width: 670px
+                @include fonts('Roboto Slab', 12px, 20px, #555555, 0, 500)
+                text-transform: uppercase
+                padding: 15px
+                margin-bottom: 20px
+                
+                &:hover
+                    border-color: #c0301c
+
+            input[type="submit"]
+                @include fonts('Roboto Slab', 12px, 20px, #6e6d6d, 0, 500)
+                text-transform: uppercase
+                padding: 10px 40px
+                background-color: transparent
+                outline: none
+                border: 1px solid #a59e9e
+
+                &:hover
+                    border-color: #c0301c
+
+            .modal-inner__text
+                display: inline
+                @include fonts('Roboto Slab', 12px, 20px, #6e6d6d, 0, 500)
+                margin-left: 30px
+
+                span 
+                    color: #d87e71
