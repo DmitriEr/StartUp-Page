@@ -483,3 +483,35 @@ body
 
                 span 
                     color: #d87e71
+
+// footer
+.footer-page
+    background-color: #c0301c
+    padding: 100px 0px
+
+    .footer-list
+        list-style: none
+        display: flex
+        justify-content: center
+
+        .footer-item
+            border: 2px solid #ffffff
+            padding: 0px 15px
+            margin-right: 15px
+            border-radius: 50%
+
+    .footer__text
+        @include fonts('Roboto Slab', 12px, 20px, #a05858, 0, regular)
+        text-transform: uppercase
+        text-align: center
+        margin-top: 50px
+        margin-bottom: 0px
+        position: relative
+
+        &::before
+            content: ""
+            position: absolute
+            border-bottom: 2px solid #ffffff
+            width: 50px
+            bottom: 40px
+            left: 940px

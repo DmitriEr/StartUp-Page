@@ -791,4 +791,49 @@ body {
 .contact .data-wrapper .data .modal-inner__text span {
   color: #d87e71;
 }
+
+.footer-page {
+  background-color: #c0301c;
+  padding: 100px 0px;
+}
+
+.footer-page .footer-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-page .footer-list .footer-item {
+  border: 2px solid #ffffff;
+  padding: 0px 15px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.footer-page .footer__text {
+  font-family: "Roboto Slab", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  color: #a05858;
+  letter-spacing: 0;
+  font-weight: regular;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.footer-page .footer__text::before {
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #ffffff;
+  width: 50px;
+  bottom: 40px;
+  left: 940px;
+}
 /*# sourceMappingURL=style.css.map */
